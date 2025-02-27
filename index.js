@@ -37,8 +37,8 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["🎮 Conquering KGW", "🎮 Playing PXP"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusMessages = ["🎮 Conquering KGW", "🎮 Playing PXP", "🇮🇩 Red and White Supremacy"];
+const statusTypes = [ 'dnd', 'dnd','idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
